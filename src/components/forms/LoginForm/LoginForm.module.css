@@ -22,7 +22,7 @@
   height: 27px;
 }
 
-.button:hover{
-    transform: translate(10vh,5vw);
- background-color: red;
+.button:hover {
+  transform: translate(10vh, 5vw);
+  background-color: red;
 }

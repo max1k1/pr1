@@ -1,14 +1,10 @@
 import React from "react";
 import styles from "./Input.module.css";
 
-const Input = (props) => {
+const Input = ({ type, placeholder }) => {
   return (
-    <input
-      className={styles.formInput}
-      type={props.type}
-      placeholder={props.placeholder}
-    />
+    <input className={styles.formInput} type={type} placeholder={placeholder} />
   );
-}; 
+};
 
 export default Input;
