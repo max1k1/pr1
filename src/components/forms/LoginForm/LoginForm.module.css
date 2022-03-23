@@ -1,0 +1,28 @@
+.Form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  border-color: rgb(214, 96, 18);
+  border: 1px solid black;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.title {
+  margin-top: 5px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  width: 40%;
+  height: 27px;
+}
+
+.button:hover {
+  transform: translate(10vh, 5vw);
+  background-color: red;
+}
